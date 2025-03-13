@@ -6,5 +6,4 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = ["music21>=9.5.0", "pydub>=0.25.1"]
 
-[tool.uv.workspace]
-members = ["batch-scripts"]
+
