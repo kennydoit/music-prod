@@ -1,9 +1,19 @@
 [project]
 name = "music-prod"
 version = "0.1.0"
-description = "Add your description here"
+description = "Environment for all things audio and midi"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = ["music21>=9.5.0", "pydub>=0.25.1"]
+dependencies = [
+    "music21>=9.5.0",
+    "pydub>=0.25.1",
+    "pyaudioanalysis>=0.3.14",
+    "eyed3>=0.9.7",
+    "scipy>=1.15.1",
+    "spotipy>=2.25.1",
+    "librosa>=0.10.0",
+    "pandas>=1.5.3",
+    "pygame>=2.1.3"
+]
 
 
